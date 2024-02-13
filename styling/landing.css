@@ -1,0 +1,77 @@
+body {
+    background-image: url(background.gif);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: rgb(44, 72, 97);
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    max-width: 800px;
+    margin: 1em auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(44, 72, 97);
+    padding: 1em;
+    width: 100%;
+}
+
+#downloadLinks{
+font-size: x-large;
+margin-left: 24em;
+}
+
+a:link {
+color: pink;
+background-color: transparent;
+text-decoration: none;
+
+}
+
+a:visited {
+color: pink;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+#downloadParag{
+margin: 2em;
+padding: auto;
+color: rgb(180, 226, 171);
+text-align: center;
+}

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Quiz Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styling/style.css">
 </head>
 <body>
     <div class="quiz-container">
         <h1>Quiz Game</h1>
         <div id="question-container"></div>
         <div id="options-container"></div>
-        <button id="next-btn" onclick="nextQuestion()">Next</button>
+        <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next</button>
         <div class="quiz-options">
             <button onclick="startQuiz(htmlQuestions)">HTML Quiz</button>
             <button onclick="startQuiz(cssQuestions)">CSS Quiz</button>
